@@ -79,7 +79,6 @@ plugins=(
         vi-mode
         vscode
         yarn
-        asdf
 )
 
 source $ZSH/oh-my-zsh.sh
