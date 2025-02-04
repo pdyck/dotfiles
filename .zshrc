@@ -108,9 +108,9 @@ export TERM="xterm-256color"
 # For a full list of active aliases, run `alias`.
 #
 # Example aliases
-alias zshconfig="vi ~/.zshrc"
+alias zshrc="vi ~/.zshrc"
 alias ohmyzsh="vi ~/.oh-my-zsh"
-alias tmuxconf="vi ~/.tmux.conf"
 
-# direnv
 eval "$(direnv hook zsh)"
+eval "$(mise activate zsh)"
+

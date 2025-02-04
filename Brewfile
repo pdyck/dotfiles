@@ -1,0 +1,17 @@
+cask_args appdir: "/Applications"
+
+brew "bash"
+brew "direnv"
+brew "git"
+brew "jq"
+brew "mas"
+brew "mise"
+brew "zsh"
+
+cask "1password"
+cask "orbstack"
+cask "raycast"
+cask "sonos"
+cask "spotify"
+cask "visual-studio-code"
+cask "whatsapp"
