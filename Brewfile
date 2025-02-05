@@ -1,7 +1,6 @@
 cask_args appdir: "/Applications"
 
 brew "bash"
-brew "direnv"
 brew "git"
 brew "jq"
 brew "mas"

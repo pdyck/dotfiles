@@ -111,6 +111,5 @@ export TERM="xterm-256color"
 alias zshrc="vi ~/.zshrc"
 alias ohmyzsh="vi ~/.oh-my-zsh"
 
-eval "$(direnv hook zsh)"
 eval "$(mise activate zsh)"
 
