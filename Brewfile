@@ -1,6 +1,8 @@
 cask_args appdir: "/Applications"
 
+brew "awscli"
 brew "bash"
+brew "gh"
 brew "git"
 brew "jq"
 brew "mas"
@@ -8,10 +10,14 @@ brew "mise"
 brew "zsh"
 
 cask "1password"
+cask "cursor"
+cask "google-chrome"
 cask "orbstack"
 cask "raycast"
+cask "slack"
 cask "sonos"
 cask "spotify"
 cask "tableplus"
 cask "visual-studio-code"
 cask "whatsapp"
+

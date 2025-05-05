@@ -4,8 +4,6 @@ if ! [ -x "$(command -v brew)" ]; then
   /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 fi
 
-brew tap Homebrew/bundle
-
 brew bundle
 
 if [ ! -d ~/.oh-my-zsh ]; then
