@@ -11,7 +11,11 @@ if [ ! -d ~/.oh-my-zsh ]; then
 fi
 
 path=$(pwd)
+
 ln -sf $path/.default-npm-packages ~/
 ln -sf $path/.mise.toml ~/
 ln -sf $path/.vimrc ~/
 ln -sf $path/.zshrc ~/
+
+mkdir -p ~/.config/husky
+ln -sf $path/.config/husky/init.sh ~/.config/husky/init.sh
